@@ -379,12 +379,13 @@ body.mobile-nav-active {
     margin-bottom: 45px; }
 
 /* ==================================================
-  Features Styling
+  Testimonials Styling
   ================================================== */
 .features {
-  padding-bottom: 45px; }
+  max-height: 335px; }
   .features h2 {
-    color: #199EB8; }
+    color: #199EB8;
+    margin: 0; }
 
 .feature-col {
   display: table;
@@ -411,6 +412,38 @@ body.mobile-nav-active {
     font-family: "Roboto", Helvetica, Arial, sans-serif;
     font-size: 14px;
     color: #999; }
+
+/* carousel */
+#quote-carousel {
+  padding: 0 10px 30px 10px;
+  margin-top: 30px;
+  text-align: center; }
+
+/* indicator position */
+#quote-carousel .carousel-indicators {
+  right: 50%;
+  top: auto;
+  bottom: -10px;
+  margin-right: -19px; }
+
+/* indicator color */
+#quote-carousel .carousel-indicators li {
+  background: #c0c0c0; }
+
+/* active indicator */
+#quote-carousel .carousel-indicators .active {
+  background: #333333;
+  height: 10px;
+  width: 10px;
+  margin-bottom: 1px; }
+
+/* typography */
+h1 {
+  text-align: center;
+  margin-bottom: -20px !important; }
+
+p {
+  font-style: italic; }
 
 /* ==================================================
   Call-to-action Styling
