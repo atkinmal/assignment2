@@ -331,35 +331,32 @@ body.mobile-nav-active {
     color: #fff; }
 
 /* ==================================================
-  Stats Styling
+  About Styling
 ================================================== */
 .stats-row {
   margin-top: 65px; }
 
 .stats-col .circle {
   display: inline-block;
-  width: 160px;
-  height: 160px;
+  width: 200px;
+  height: 200px;
   font-family: "Raleway", Helvetica, Arial, sans-serif;
   font-weight: 500;
-  color: #666;
+  font-size: 1.7rem;
+  color: #fff;
   border: 6px solid #199EB8;
   border-radius: 50%;
-  padding: 55px 25px 0 25px;
+  padding: 75px 35px 0 25px;
   position: relative; }
-  .stats-col .circle .stats-no {
-    color: #fff;
-    width: 70px;
-    height: 70px;
-    line-height: 70px;
-    top: -25px;
-    right: -15px;
-    font-family: "Raleway", Helvetica, Arial, sans-serif;
-    font-size: 18px;
-    background-color: #E04F00;
-    position: absolute;
-    border-radius: 50%;
-    font-weight: 700; }
+.stats-col .portrait {
+  background: url("../img/img_0587.jpg");
+  background-size: cover; }
+.stats-col .landscape {
+  background: url("../img/img_0078.jpg");
+  background-size: cover; }
+.stats-col .silhouette {
+  background: url("../img/silhouette.jpg");
+  background-size: cover; }
 
 /* ==================================================
   Parallax Styling
@@ -381,37 +378,11 @@ body.mobile-nav-active {
 /* ==================================================
   Testimonials Styling
   ================================================== */
-.features {
-  max-height: 335px; }
-  .features h2 {
+.testimonials {
+  max-height: 694px; }
+  .testimonials h2 {
     color: #199EB8;
     margin: 0; }
-
-.feature-col {
-  display: table;
-  padding-bottom: 45px; }
-  .feature-col > div > div {
-    display: table-cell;
-    vertical-align: middle; }
-    .feature-col > div > div:last-child {
-      padding-left: 20px; }
-  .feature-col .feature-icon {
-    width: 70px;
-    height: 70px;
-    margin-bottom: 15px;
-    background: #199EB8;
-    color: #fff;
-    font-size: 24px;
-    text-align: center;
-    line-height: 70px;
-    border-radius: 50%;
-    display: inline-block; }
-  .feature-col h3 {
-    color: #199EB8; }
-  .feature-col p {
-    font-family: "Roboto", Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    color: #999; }
 
 /* carousel */
 #quote-carousel {
@@ -497,16 +468,16 @@ p {
 /* ==================================================
   FAQ Styling
   ================================================== */
-.team h2 {
+.faq h2 {
   color: #199EB8; }
-.team .col-sm-3 {
+.faq .col-sm-3 {
   padding: 0; }
-.team .card-header {
+.faq .card-header {
   padding: 20px; }
-  .team .card-header a {
+  .faq .card-header a {
     font-family: myriad pro;
     font-size: 2rem; }
-.team .card-body {
+.faq .card-body {
   padding: 25px; }
 
 /* ==================================================

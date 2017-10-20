@@ -413,7 +413,7 @@ body {
 }
 
 /* ==================================================
-  Stats Styling
+  About Styling
 ================================================== */
 
 .stats-row {
@@ -422,30 +422,29 @@ body {
 .stats-col {
     .circle {
         display: inline-block;
-        width: 160px;
-        height: 160px;
+        width: 200px;
+        height: 200px;
         font-family: $font-primary;
         font-weight: 500;
-        color: #666;
+        font-size: 1.7rem;
+        color: #fff;
         border: 6px solid $color-primary;
         border-radius: 50%;
-        padding: 55px 25px 0 25px;
+        padding: 75px 35px 0 25px;
         position: relative;
-        .stats-no {
-            color: #fff;
-            width: 70px;
-            height: 70px;
-            line-height: 70px;
-            top: -25px;
-            right: -15px;
-            font-family: $font-primary;
-            font-size: 18px;
-            background-color: $color-secondary;
-            position: absolute;
-            border-radius: 50%;
-            font-weight: 700;
-        }
     }
+    .portrait{
+      background: url("../img/img_0587.jpg");
+      background-size: cover;
+    }
+   .landscape{
+      background: url("../img/img_0078.jpg");
+      background-size: cover;
+    } 
+    .silhouette{
+      background: url("../img/silhouette.jpg");
+      background-size: cover;
+    } 
 }
 /* ==================================================
   Parallax Styling
@@ -471,43 +470,12 @@ body {
   Testimonials Styling
   ================================================== */
 
-.features {
+.testimonials {
     h2 {
         color: $color-primary;
         margin: 0;
     }
-    max-height: 335px;
-}
-.feature-col {
-    display: table;
-    padding-bottom: 45px;
-    > div > div {
-        display: table-cell;
-        vertical-align: middle;
-        &:last-child {
-            padding-left: 20px;
-        }
-    }
-    .feature-icon {
-        width: 70px;
-        height: 70px;
-        margin-bottom: 15px;
-        background: $color-primary;
-        color: #fff;
-        font-size: 24px;
-        text-align: center;
-        line-height: 70px;
-        border-radius: 50%;
-        display: inline-block;
-    }
-    h3 {
-        color: $color-primary;
-    }
-    p {
-        font-family: $font-secondary;
-        font-size: 14px;
-        color: #999;
-    }
+      max-height: 694px;
 }
 
 /* carousel */
@@ -605,7 +573,7 @@ p {
   FAQ Styling
   ================================================== */
 
-.team {
+.faq {
     h2 {
         color: $color-primary;
     }
